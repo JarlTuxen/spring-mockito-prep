@@ -11,7 +11,7 @@ public class HelloService {
     HelloWorldRepository helloWorldRepository;
 
     public String helloMessage(){
-        return helloWorldRepository.getHelloWorld();
+        return helloWorldRepository.getHelloWorld(); //+":-)";
     }
 }
 
